@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clearance Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pdc.html">PDC Generator</a></li>
+                <li><a href="clearance.html">Clearance Generator</a></li>
+                <li><a href="squawk.html">Squawk Generator</a></li>
+                <li><a href="heading.html">Heading Finder</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Clearance Generator</h1>
+        <form id="clearanceForm">
+            <label for="inputData">Paste flightplan here:</label>
+            <textarea id="inputData" name="inputData" rows="5" cols="50" required></textarea>
+            <label for="departureFrequency">Departure Frequency (Optional):</label>
+            <input type="text" id="departureFrequency" name="departureFrequency">
+            <button type="submit">Generate Clearance</button>
+        </form>
+        <div id="clearanceResult"></div>
+    </div>
+
+    <script src="clearance_generator.js"></script>
+</body>
+</html>

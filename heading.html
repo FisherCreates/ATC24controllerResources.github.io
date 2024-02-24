@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pdc.html">PDC Generator</a></li>
+            <li><a href="clearance.html">Clearance Generator</a></li>
+            <li><a href="squawk.html">Squawk Generator</a></li>
+            <li><a href="heading.html">Heading Finder</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Heading Finder</h1>
+        <form id="headingForm">
+            <label for="departureAirport">Departure Airport:</label>
+            <input type="text" id="departureAirport" name="departureAirport" required>
+            <label for="arrivalAirport">Arrival Airport:</label>
+            <input type="text" id="arrivalAirport" name="arrivalAirport" required>
+            <button type="submit">Calculate Heading</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="heading_finder.js"></script>
+</body>
+</html>

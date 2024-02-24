@@ -1,0 +1,164 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0; /* Add some padding */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    text-align: center; /* Center the list items */
+}
+
+.navbar ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between items */
+}
+
+.navbar ul li a {
+    font-family: 'Roboto', sans-serif; /* Modern font family */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    padding: 10px; /* Add padding */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar ul li a:hover {
+    background-color: #555; /* Darken background color on hover */
+}
+
+/* Style for the container */
+.container {
+    max-width: 800px; /* Maximum width of the container */
+    margin: auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding inside the container */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    font-family: 'Roboto', sans-serif; /* Modern font family */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    justify-content: center; /* Center child elements vertically */
+}
+
+.container h1 {
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #333; /* Heading color */
+}
+
+.container form {
+    margin-bottom: 20px; /* Add some space below the form */
+}
+
+.container label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add some space below each label */
+    color: #555; /* Label color */
+}
+
+.container input[type="text"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Add some padding */
+    margin-bottom: 15px; /* Add some space below each input field */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 3px; /* Add border radius */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+.container input[type="text"]:focus {
+    border-color: #333; /* Change border color on focus */
+}
+
+.container button {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 12px 20px; /* Add padding */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    border-radius: 3px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.container button:hover {
+    background-color: #555; /* Darken background color on hover */
+}
+
+.feedback-button {
+    margin-top: 40px; /* Increased space between button and content */
+    background-color: #007bff; /* Blue color for the button */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the button text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from anchor tag */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+}
+
+.feedback-wrapper {
+    margin-top: 30px;
+}
+
+.feedback-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.feedback-button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    text-align: left; /* Adjusted to left-align list items */
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Add your desired background color */
+    padding: 10px 0; /* Add padding as needed */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white !important; /* Change text color to white */
+}
+
+/* Add padding to the top of the body equal to the height of the navbar */
+body {
+    padding-top: 50px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Style for the navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Add your desired background color */
+    padding: 10px 10; /* Add padding as needed */
+    z-index: 2000; /* Ensure it's above other elements */
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin-right: 20px;
+        }
+
+        .navbar ul li:last-child {
+            margin-right: 0;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .feedback-wrapper {
+            margin-top: 20px;
+        }
+
+        .feedback-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .feedback-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pdc.html">PDC Generator</a></li>
+                <li><a href="clearance.html">Clearance Generator</a></li>
+                <li><a href="squawk.html">Squawk Generator</a></li>
+                <li><a href="heading.html">Heading Finder</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Welcome to Dynamix's ATC24 Controller Resources</h1>
+        <p>Here you can find the following free tools and generators for aviation:</p>
+        <ul>
+            <li>Generate PDC</li>
+            <li>Generate Clearance</li>
+            <li>Generate Squawk Code</li>
+            <li>Find Heading</li>
+        </ul>
+        <div class="feedback-wrapper">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGUuKCtKcuqyESXotCC4fnMwXZIoPa7XsBXY71ikgcfsm5TA/viewform?usp=sf_link" class="feedback-button">Feedback</a>
+        </div>
+    </div>
+
+</body>
+</html>
